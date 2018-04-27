@@ -462,7 +462,7 @@ var explore_Component = explore_normalizeComponent(
 
 vue_esm["default"].use(vue_router_esm["a" /* default */]);
 /* harmony default export */ var pages = (new vue_router_esm["a" /* default */]({
-    mode: 'history',
+    mode: 'hash',
     routes: [
         {
             path: '/',
