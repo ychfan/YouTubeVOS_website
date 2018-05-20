@@ -1,5 +1,12 @@
 webpackJsonp([1],{
 
+/***/ "/OU2":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "/S1M":
 /***/ (function(module, exports) {
 
@@ -14,14 +21,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ "EP3o":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "P+US":
+/***/ "L7TD":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -381,14 +381,14 @@ var home_HomePage = /** @class */ (function (_super) {
 }(vue_property_decorator_umd["Vue"]));
 /* harmony default export */ var home = (home_HomePage);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-35ed1c59","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/home.vue
-var home_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page",attrs:{"id":"page-home"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container"},[_vm._m(0),_c('div',{staticClass:"section"},[_c('div',{staticClass:"columns"},_vm._l((_vm.infos),function(info){return _c('div',{staticClass:"column"},[_c('div',{staticClass:"infos"},[_c('b-tooltip',{attrs:{"label":_vm.expandinfo(info),"type":"is-light"}},[_c('div',{staticClass:"num"},[_vm._v(" "+_vm._s(info.number))]),_c('div',{staticClass:"info"},[_vm._v(_vm._s(info.unit))])])],1)])}))]),_vm._m(1),_c('div',{staticClass:"section news"},[_c('h1',{staticClass:"title is-4"},[_vm._v("News")]),_c('li',[_vm._v("Check out our benchmark challenge"),_c('router-link',{attrs:{"to":"challenge/challenge2018"}},[_vm._v("\"1st Large-scale Video Object Segmentation Challenge\"")]),_vm._v("which will be held in ECCV 2018!")],1),_c('li',[_vm._v("Dataset will be released in early June, 2018.")])]),_vm._m(2),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Dataset Examples")]),_c('div',{staticClass:"columns example"},_vm._l((_vm.samples),function(sample){return _c('div',{staticClass:"column"},[_c('img',{attrs:{"src":'/static/samples/'+sample+'_bike.jpg'}}),_c('img',{attrs:{"src":'/static/samples/'+sample+'_fish.jpg'}})])})),_c('p',[_c('span',[_vm._v("For more examples, please")]),_c('router-link',{attrs:{"to":"dataset/explore"}},[_vm._v(" explore")]),_c('span',[_vm._v(" our dataset.")])],1)]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("People")]),_c('div',{staticClass:"columns"},_vm._l((_vm.organizers),function(organizer){return _c('div',{staticClass:"column"},[_c('figure',{staticClass:"image is-128x128"},[_c('img',{staticClass:"is-rounded",attrs:{"src":'/static/organizers/'+organizer.im_name+'.jpg'}})]),_c('p'),_c('p',{staticClass:"is-size-7-desktop"},[_c('a',{attrs:{"href":organizer.link}},[_vm._v(_vm._s(organizer.name))])]),_c('p',{staticClass:"is-size-7-desktop"},[_vm._v(_vm._s(organizer.affiliation))])])}))]),_vm._m(3),_vm._m(4),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Sponsors")]),_c('div',{staticClass:"columns"},_vm._l((_vm.sponsors),function(sponsor){return _c('div',{staticClass:"column"},[_c('figure',{staticClass:"image is-128x128"},[_c('img',{attrs:{"src":'/static/sponsors/'+sponsor.im_name}})])])}))])])])])}
-var home_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("YouTube-VOS")]),_c('p',[_vm._v("YouTube-VOS is the first large-scale dataset for video object segmentation. Our dataset contains 4000+ YouTube videos, 70+ common objects and densely-sampled high-quality pixel-level annotations. Some statistics of the dataset are shown below. More details can be found in the dataset report.")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('p',[_vm._v("We hope that such a large-scale dataset can")]),_c('li',[_vm._v("Overcome the data-insufficiency issue for video object segmentation as well as other low and mid-level video understanding tasks, and therefore foster more bold and complicated algorithms such as RNN, Reinforcement Learning etc.")]),_c('li',[_vm._v("Provide diverse training samples to help learn specific object characteristics in videos such as spatial-temporal coherence.")]),_c('li',[_vm._v("Provide more comprehensive evaluation results than existing datasets (For example, larger testing scale and better evaluation metrics).")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Citation")]),_c('p',[_vm._v("Available soon!")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Contact")]),_c('p',[_vm._v("For dataset related questions, please feel free to contact"),_c('a',{attrs:{"href":"mailto:ytvos@gmail.com"}},[_vm._v(" ytbvos@gmail.com")]),_vm._v(".")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("License")]),_c('p',[_vm._v("The annotations in this dataset belong to the organizers of the challenge and are licensed under a"),_c('a',{attrs:{"href":"https://creativecommons.org/licenses/by/4.0/"}},[_vm._v(" Creative Commons Attribution 4.0 License")]),_vm._v(".")])])}]
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7cf9474f","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/home.vue
+var home_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page",attrs:{"id":"page-home"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container"},[_vm._m(0),_vm._m(1),_c('div',{staticClass:"section news"},[_c('h1',{staticClass:"title is-4"},[_vm._v("News")]),_c('li',[_vm._v("Check out our benchmark challenge"),_c('router-link',{attrs:{"to":"challenge/challenge2018"}},[_vm._v("\"1st Large-scale Video Object Segmentation Challenge\"")]),_vm._v("which will be held in ECCV 2018!")],1),_c('li',[_vm._v("Dataset will be released in early June, 2018.")])]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Dataset Examples")]),_c('div',{staticClass:"columns example"},_vm._l((_vm.samples),function(sample){return _c('div',{staticClass:"column"},[_c('img',{attrs:{"src":'/static/samples/'+sample+'_bike.jpg'}}),_c('img',{attrs:{"src":'/static/samples/'+sample+'_fish.jpg'}})])})),_c('p',[_c('span',[_vm._v("For more examples, please")]),_c('router-link',{attrs:{"to":"dataset/explore"}},[_vm._v(" explore")]),_c('span',[_vm._v(" our dataset.")])],1)]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("People")]),_c('div',{staticClass:"columns"},_vm._l((_vm.organizers),function(organizer){return _c('div',{staticClass:"column"},[_c('figure',{staticClass:"image is-128x128"},[_c('img',{staticClass:"is-rounded",attrs:{"src":'/static/organizers/'+organizer.im_name+'.jpg'}})]),_c('p'),_c('p',{staticClass:"is-size-7-desktop"},[_c('a',{attrs:{"href":organizer.link}},[_vm._v(_vm._s(organizer.name))])]),_c('p',{staticClass:"is-size-7-desktop"},[_vm._v(_vm._s(organizer.affiliation))])])}))]),_vm._m(2),_vm._m(3),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Sponsors")]),_c('div',{staticClass:"columns"},_vm._l((_vm.sponsors),function(sponsor){return _c('div',{staticClass:"column"},[_c('figure',{staticClass:"image is-128x128"},[_c('img',{attrs:{"src":'/static/sponsors/'+sponsor.im_name}})])])}))])])])])}
+var home_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("YouTube-VOS")]),_c('p',[_vm._v("YouTube-VOS is the first large-scale dataset for video object segmentation. Our dataset contains 4000+ YouTube videos, 70+ common objects and densely-sampled high-quality pixel-level annotations. Some statistics of the dataset are shown below. More details can be found in the dataset report.")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('p',[_vm._v("We hope that such a large-scale dataset can")]),_c('li',[_vm._v("Overcome the data-insufficiency issue for video object segmentation as well as other low and mid-level video understanding tasks, and therefore foster more bold and complicated algorithms such as RNN, Reinforcement Learning etc.")]),_c('li',[_vm._v("Provide diverse training samples to help learn specific object characteristics in videos such as spatial-temporal coherence.")]),_c('li',[_vm._v("Provide more comprehensive evaluation results than existing datasets (For example, larger testing scale and better evaluation metrics).")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Contact")]),_c('p',[_vm._v("For dataset related questions, please feel free to contact"),_c('a',{attrs:{"href":"mailto:ytvos@gmail.com"}},[_vm._v(" ytbvos@gmail.com")]),_vm._v(".")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("License")]),_c('p',[_vm._v("The annotations in this dataset belong to the organizers of the challenge and are licensed under a"),_c('a',{attrs:{"href":"https://creativecommons.org/licenses/by/4.0/"}},[_vm._v(" Creative Commons Attribution 4.0 License")]),_vm._v(".")])])}]
 var home_esExports = { render: home_render, staticRenderFns: home_staticRenderFns }
 /* harmony default export */ var pages_home = (home_esExports);
 // CONCATENATED MODULE: ./src/pages/home.vue
 function home_injectStyle (ssrContext) {
-  __webpack_require__("EP3o")
+  __webpack_require__("L7TD")
 }
 var home_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -401,7 +401,7 @@ var home___vue_template_functional__ = false
 /* styles */
 var home___vue_styles__ = home_injectStyle
 /* scopeId */
-var home___vue_scopeId__ = "data-v-35ed1c59"
+var home___vue_scopeId__ = "data-v-7cf9474f"
 /* moduleIdentifier (server only) */
 var home___vue_module_identifier__ = null
 var home_Component = home_normalizeComponent(
@@ -731,6 +731,15 @@ var workshop_WorkshopPage = /** @class */ (function (_super) {
             { name: 'Linjie Yang', affiliation: 'Snap Research', im_name: 'LinjieYang' },
             { name: 'Yuchen Fan', affiliation: 'UIUC', im_name: 'YuchenFan' },
         ];
+        _this.speakers = [{
+                name: 'Jason Corso',
+                bio: "Corso is an associate professor of Electrical Engineering and Computer Science at the\n    University of Michigan. From 2007-14 he was a member of the Computer Science and\n    Engineering faculty at SUNY Buffalo.  He is the recipient of a Google Faculty Research Award\n    2015, the Army Research Office Young Investigator Award 2010, NSF CAREER award 2009,\n    SUNY Buffalo Young Investigator Award 2011, a member of the 2009 DARPA Computer Science\n    Study Group, and a recipient of the Link Foundation Fellowship in Advanced Simulation and\n    Training 2003. Corso has authored 90+ peer-reviewed papers on topics of his research interest\n    including computer vision, robot perception, data science, and medical imaging. He is an\n    Associate Editor of PAMI, and a member of the AAAI, IEEE, ACM.",
+                photo: 'JasonCorso',
+            }, {
+                name: 'Chenliang Xu',
+                bio: "Dr. Chenliang Xu is currently an Assistant Professor in the Department of Computer Science\n    at the University of Rochester. He received his Ph.D. in Computer Science and Engineering at\n    the University of Michigan in 2016. His research thrusts include computer vision and its relations\n    to natural language, robotics, and data science. He primarily focuses on problems in video\n    understanding such as video segmentation, activity recognition, and multimodal vision-and-x\n    modeling. He also has broader interests in machine learning and deep learning.",
+                photo: 'ChenliangXu',
+            }];
         return _this;
     }
     WorkshopPage = workshop___decorate([
@@ -740,14 +749,14 @@ var workshop_WorkshopPage = /** @class */ (function (_super) {
 }(vue_property_decorator_umd["Vue"]));
 /* harmony default export */ var workshop = (workshop_WorkshopPage);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-566a71d4","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/workshop.vue
-var workshop_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var workshop_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"page-workshop"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title"},[_vm._v("Program")])]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Invited Speakers (Tentatively)")])]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Workshop schedule (Sep 14th afternoon)")]),_c('p',[_vm._v("To be scheduled.")])])])])])}]
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-8891be3a","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/workshop.vue
+var workshop_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"page-workshop"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container"},[_vm._m(0),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Invited Speakers (Tentatively)")]),_vm._l((_vm.speakers),function(speaker){return _c('article',{staticClass:"message is-dark speakers"},[_c('div',{staticClass:"message-body"},[_c('div',{staticClass:"left"},[_c('figure',{staticClass:"image is-128x128"},[_c('img',{attrs:{"src":'static/speakers/'+speaker.photo+'.jpg'}})])]),_c('div',{staticClass:"right"},[_c('p',{staticClass:"name"},[_vm._v(_vm._s(speaker.name))]),_c('p',{staticClass:"bio"},[_vm._v(_vm._s(speaker.bio))])])])])})],2),_vm._m(1)])])])}
+var workshop_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title"},[_vm._v("Program")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Workshop schedule (Sep 14th afternoon)")]),_c('p',[_vm._v("To be scheduled.")])])}]
 var workshop_esExports = { render: workshop_render, staticRenderFns: workshop_staticRenderFns }
 /* harmony default export */ var pages_workshop = (workshop_esExports);
 // CONCATENATED MODULE: ./src/pages/workshop.vue
 function workshop_injectStyle (ssrContext) {
-  __webpack_require__("P+US")
+  __webpack_require__("/OU2")
 }
 var workshop_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -760,7 +769,7 @@ var workshop___vue_template_functional__ = false
 /* styles */
 var workshop___vue_styles__ = workshop_injectStyle
 /* scopeId */
-var workshop___vue_scopeId__ = "data-v-566a71d4"
+var workshop___vue_scopeId__ = "data-v-8891be3a"
 /* moduleIdentifier (server only) */
 var workshop___vue_module_identifier__ = null
 var workshop_Component = workshop_normalizeComponent(
