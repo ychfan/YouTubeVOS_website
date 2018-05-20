@@ -56,6 +56,13 @@ webpackJsonp([1],{
 
 /***/ }),
 
+/***/ "hLCG":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "hgLs":
 /***/ (function(module, exports) {
 
@@ -742,14 +749,14 @@ var workshop_WorkshopPage = /** @class */ (function (_super) {
 }(vue_property_decorator_umd["Vue"]));
 /* harmony default export */ var workshop = (workshop_WorkshopPage);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-383d461e","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/workshop.vue
-var workshop_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"page-workshop"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container"},[_vm._m(0),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Invited Speakers (Tentatively)")]),_vm._l((_vm.speakers),function(speaker){return _c('article',{staticClass:"message is-dark speakers"},[_c('div',{staticClass:"message-body columns"},[_c('div',{staticClass:"left column is-narrow"},[_c('figure',{staticClass:"image is-128x128"},[_c('img',{attrs:{"src":'static/speakers/'+speaker.photo+'.jpg'}})])]),_c('div',{staticClass:"right column"},[_c('p',{staticClass:"is-size-5 has-text-weight-bold"},[_vm._v(_vm._s(speaker.name))]),_c('p',[_vm._v(_vm._s(speaker.bio))])])])])})],2),_vm._m(1)])])])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-8e62716e","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/workshop.vue
+var workshop_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"page-workshop"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container"},[_vm._m(0),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Invited Speakers (Tentatively)")]),_vm._l((_vm.speakers),function(speaker){return _c('article',{staticClass:"message is-dark speakers"},[_c('div',{staticClass:"message-body columns"},[_c('div',{staticClass:"left column is-narrow"},[_c('figure',{staticClass:"image"},[_c('img',{attrs:{"src":'static/speakers/'+speaker.photo+'.jpg'}})])]),_c('div',{staticClass:"right column"},[_c('p',{staticClass:"is-size-5 has-text-weight-bold"},[_vm._v(_vm._s(speaker.name))]),_c('p',[_vm._v(_vm._s(speaker.bio))])])])])})],2),_vm._m(1)])])])}
 var workshop_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title"},[_vm._v("Program")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Workshop schedule (Sep 14th afternoon)")]),_c('p',[_vm._v("To be scheduled.")])])}]
 var workshop_esExports = { render: workshop_render, staticRenderFns: workshop_staticRenderFns }
 /* harmony default export */ var pages_workshop = (workshop_esExports);
 // CONCATENATED MODULE: ./src/pages/workshop.vue
 function workshop_injectStyle (ssrContext) {
-  __webpack_require__("zPDC")
+  __webpack_require__("hLCG")
 }
 var workshop_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -762,7 +769,7 @@ var workshop___vue_template_functional__ = false
 /* styles */
 var workshop___vue_styles__ = workshop_injectStyle
 /* scopeId */
-var workshop___vue_scopeId__ = "data-v-383d461e"
+var workshop___vue_scopeId__ = "data-v-8e62716e"
 /* moduleIdentifier (server only) */
 var workshop___vue_module_identifier__ = null
 var workshop_Component = workshop_normalizeComponent(
@@ -898,13 +905,6 @@ new vue_esm["default"]({
     components: { app: src_app },
 });
 
-
-/***/ }),
-
-/***/ "zPDC":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
 
 /***/ })
 
