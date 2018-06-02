@@ -858,7 +858,7 @@ var guidelines_Component = guidelines_normalizeComponent(
 
 vue_esm["default"].use(vue_router_esm["a" /* default */]);
 /* harmony default export */ var pages = (new vue_router_esm["a" /* default */]({
-    mode: 'hash',
+    mode: 'history',
     routes: [
         {
             path: '/',
