@@ -7,14 +7,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ "3XZh":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "AWH4":
+/***/ "5adc":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -28,14 +21,14 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ "L7TD":
+/***/ "PivD":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ "QCOx":
+/***/ "QqNW":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -49,7 +42,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ "VAAM":
+/***/ "WXi/":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -71,6 +64,13 @@ webpackJsonp([1],{
 /***/ }),
 
 /***/ "hgLs":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "jDon":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -156,15 +156,15 @@ var app_App = /** @class */ (function (_super) {
 }(vue_esm["default"]));
 /* harmony default export */ var app = (app_App);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-2b1fc0c6","hasScoped":false,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/app.vue
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('header',{staticClass:"hero is-primary",attrs:{"id":"nav"}},[_vm._m(0),_c('div',{staticClass:"hero-foot"},[_c('nav',{staticClass:"tabs is-full-width is-boxed"},[_c('div',{staticClass:"container"},[_vm._l((_vm.menu),function(item){return [(!item.submenu)?_c('div',{staticClass:"dropdown nav-item",class:{active: _vm.route.includes(item.to)},attrs:{"slot":"trigger"},slot:"trigger"},[_c('router-link',{attrs:{"to":'/'+item.to}},[_vm._v(_vm._s(item.text))])],1):_vm._e(),(item.submenu)?_c('b-dropdown',{attrs:{"hoverable":"hoverable"}},[_c('div',{staticClass:"nav-item",class:{active: _vm.route.includes(item.to)},attrs:{"slot":"trigger"},slot:"trigger"},[_c('a',[_vm._v(_vm._s(item.text)),_c('b-icon',{attrs:{"icon":"menu-down","size":"is-small"}})],1)]),_vm._l((item.submenu),function(subitem){return _c('b-dropdown-item',{class:{active: _vm.route.includes(subitem.to)},attrs:{"disabled":subitem.disabled}},[(!subitem.disabled)?_c('router-link',{staticClass:"submenu",attrs:{"to":'/'+item.to+'/'+subitem.to,"tag":"span"}},[_vm._v(_vm._s(subitem.text))]):_vm._e(),(subitem.disabled)?_c('span',{staticClass:"submenu"},[_vm._v(_vm._s(subitem.text))]):_vm._e()],1)})],2):_vm._e()]})],2)])])]),_c('main',{staticClass:"section"},[_c('router-view')],1)])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"hero-body"},[_c('div',{staticClass:"container"},[_c('h1',{staticClass:"title"},[_vm._v("YouTube-VOS: A Large-Scale Benchmark for Video Object Segmentation")])])])}]
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-45b9a3a9","hasScoped":false,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/app.vue
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_vm._m(0),_c('nav',{staticClass:"tabs is-full-width is-boxed"},[_c('div',{staticClass:"container is-primary"},[_vm._l((_vm.menu),function(item){return [(!item.submenu)?_c('div',{staticClass:"dropdown nav-item",class:{active: _vm.route.includes(item.to)},attrs:{"slot":"trigger"},slot:"trigger"},[_c('router-link',{attrs:{"to":'/'+item.to}},[_vm._v(_vm._s(item.text))])],1):_vm._e(),(item.submenu)?_c('b-dropdown',{attrs:{"hoverable":"hoverable"}},[_c('div',{staticClass:"nav-item",class:{active: _vm.route.includes(item.to)},attrs:{"slot":"trigger"},slot:"trigger"},[_c('a',[_vm._v(_vm._s(item.text)),_c('b-icon',{attrs:{"icon":"menu-down","size":"is-small"}})],1)]),_vm._l((item.submenu),function(subitem){return _c('b-dropdown-item',{class:{active: _vm.route.includes(subitem.to)},attrs:{"disabled":subitem.disabled}},[(!subitem.disabled)?_c('router-link',{staticClass:"submenu",attrs:{"to":'/'+item.to+'/'+subitem.to,"tag":"span"}},[_vm._v(_vm._s(subitem.text))]):_vm._e(),(subitem.disabled)?_c('span',{staticClass:"submenu"},[_vm._v(_vm._s(subitem.text))]):_vm._e()],1)})],2):_vm._e()]})],2)]),_c('router-view')],1)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('header',{staticClass:"hero is-primary"},[_c('div',{staticClass:"hero-body"},[_c('div',{staticClass:"container"},[_c('h1',{staticClass:"title"},[_vm._v("YouTube-VOS: A Large-Scale Benchmark for Video Object Segmentation")])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ var selectortype_template_index_0_src_app = (esExports);
 // CONCATENATED MODULE: ./src/app.vue
 function injectStyle (ssrContext) {
-  __webpack_require__("3XZh")
-  __webpack_require__("VAAM")
+  __webpack_require__("5adc")
+  __webpack_require__("QqNW")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -381,14 +381,14 @@ var home_HomePage = /** @class */ (function (_super) {
 }(vue_property_decorator_umd["Vue"]));
 /* harmony default export */ var home = (home_HomePage);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7cf9474f","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/home.vue
-var home_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page",attrs:{"id":"page-home"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container"},[_vm._m(0),_vm._m(1),_c('div',{staticClass:"section news"},[_c('h1',{staticClass:"title is-4"},[_vm._v("News")]),_c('li',[_vm._v("Check out our benchmark challenge"),_c('router-link',{attrs:{"to":"challenge/challenge2018"}},[_vm._v("\"1st Large-scale Video Object Segmentation Challenge\"")]),_vm._v("which will be held in ECCV 2018!")],1),_c('li',[_vm._v("Dataset will be released in early June, 2018.")])]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Dataset Examples")]),_c('div',{staticClass:"columns example"},_vm._l((_vm.samples),function(sample){return _c('div',{staticClass:"column"},[_c('img',{attrs:{"src":'/static/samples/'+sample+'_bike.jpg'}}),_c('img',{attrs:{"src":'/static/samples/'+sample+'_fish.jpg'}})])})),_c('p',[_c('span',[_vm._v("For more examples, please")]),_c('router-link',{attrs:{"to":"dataset/explore"}},[_vm._v(" explore")]),_c('span',[_vm._v(" our dataset.")])],1)]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("People")]),_c('div',{staticClass:"columns"},_vm._l((_vm.organizers),function(organizer){return _c('div',{staticClass:"column"},[_c('figure',{staticClass:"image is-128x128"},[_c('img',{staticClass:"is-rounded",attrs:{"src":'/static/organizers/'+organizer.im_name+'.jpg'}})]),_c('p'),_c('p',{staticClass:"is-size-7-desktop"},[_c('a',{attrs:{"href":organizer.link}},[_vm._v(_vm._s(organizer.name))])]),_c('p',{staticClass:"is-size-7-desktop"},[_vm._v(_vm._s(organizer.affiliation))])])}))]),_vm._m(2),_vm._m(3),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Sponsors")]),_c('div',{staticClass:"columns"},_vm._l((_vm.sponsors),function(sponsor){return _c('div',{staticClass:"column"},[_c('figure',{staticClass:"image is-128x128"},[_c('img',{attrs:{"src":'/static/sponsors/'+sponsor.im_name}})])])}))])])])])}
-var home_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("YouTube-VOS")]),_c('p',[_vm._v("YouTube-VOS is the first large-scale dataset for video object segmentation. Our dataset contains 4000+ YouTube videos, 70+ common objects and densely-sampled high-quality pixel-level annotations. Some statistics of the dataset are shown below. More details can be found in the dataset report.")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('p',[_vm._v("We hope that such a large-scale dataset can")]),_c('li',[_vm._v("Overcome the data-insufficiency issue for video object segmentation as well as other low and mid-level video understanding tasks, and therefore foster more bold and complicated algorithms such as RNN, Reinforcement Learning etc.")]),_c('li',[_vm._v("Provide diverse training samples to help learn specific object characteristics in videos such as spatial-temporal coherence.")]),_c('li',[_vm._v("Provide more comprehensive evaluation results than existing datasets (For example, larger testing scale and better evaluation metrics).")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Contact")]),_c('p',[_vm._v("For dataset related questions, please feel free to contact"),_c('a',{attrs:{"href":"mailto:ytvos@gmail.com"}},[_vm._v(" ytbvos@gmail.com")]),_vm._v(".")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("License")]),_c('p',[_vm._v("The annotations in this dataset belong to the organizers of the challenge and are licensed under a"),_c('a',{attrs:{"href":"https://creativecommons.org/licenses/by/4.0/"}},[_vm._v(" Creative Commons Attribution 4.0 License")]),_vm._v(".")])])}]
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-33954f6d","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/home.vue
+var home_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page",attrs:{"id":"page-home"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container"},[_vm._m(0),_vm._m(1),_vm._m(2),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Dataset Examples")]),_c('div',{staticClass:"columns example"},_vm._l((_vm.samples),function(sample){return _c('div',[_c('img',{attrs:{"src":'/static/samples/'+sample+'_bike.jpg'}}),_c('img',{attrs:{"src":'/static/samples/'+sample+'_fish.jpg'}})])})),_c('p',[_c('span',[_vm._v("For more examples, please")]),_c('router-link',{attrs:{"to":"dataset/explore"}},[_vm._v(" explore")]),_c('span',[_vm._v(" our dataset.")])],1)]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("People")]),_c('div',{staticClass:"columns flex-wrap"},_vm._l((_vm.organizers),function(organizer){return _c('div',[_c('figure',{staticClass:"image is-128x128"},[_c('img',{staticClass:"is-rounded",attrs:{"src":'/static/organizers/'+organizer.im_name+'.jpg'}})]),_c('p'),_c('p',{staticClass:"is-size-7-desktop has-text-centered"},[_c('a',{attrs:{"href":organizer.link}},[_vm._v(_vm._s(organizer.name))])]),_c('p',{staticClass:"is-size-7-desktop has-text-centered"},[_vm._v(_vm._s(organizer.affiliation))])])}))]),_c('div',{staticClass:"section"},[_c('hi',{staticClass:"title is-4"},[_vm._v("Citation")]),_c('p',[_vm._v("will be available soon")])],1),_vm._m(3),_vm._m(4),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Sponsors")]),_c('div',{staticClass:"columns"},_vm._l((_vm.sponsors),function(sponsor){return _c('div',{staticClass:"column"},[_c('figure',{staticClass:"image is-128x128"},[_c('img',{attrs:{"src":'/static/sponsors/'+sponsor.im_name}})])])}))])])])])}
+var home_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("YouTube-VOS")]),_c('p',[_vm._v("YouTube-VOS is the first large-scale dataset for video object segmentation. Our dataset contains 4000+ YouTube videos, 70+ common objects and densely-sampled high-quality pixel-level annotations. Some statistics of the dataset are shown below. More details can be found in the dataset report (will be available soon).")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('p',[_vm._v("We hope that such a large-scale dataset can")]),_c('li',[_vm._v("Overcome the data-insufficiency issue for video object segmentation as well as other low and mid-level video understanding tasks, and therefore foster more bold and complicated algorithms such as RNN, Reinforcement Learning etc.")]),_c('li',[_vm._v("Provide diverse training samples to help learn specific object characteristics in videos such as spatial-temporal coherence.")]),_c('li',[_vm._v("Provide more comprehensive evaluation results than existing datasets (For example, larger testing scale and better evaluation metrics).")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section news"},[_c('h1',{staticClass:"title is-4"},[_vm._v("News")]),_c('li',[_vm._v("Dataset will be released in early June, 2018.")]),_c('li',[_vm._v("We are carefully performing the final check of our dataset and will release it in mid June of 2018")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Contact")]),_c('p',[_vm._v("For dataset related questions, please feel free to contact"),_c('a',{attrs:{"href":"mailto:ytvos@gmail.com"}},[_vm._v(" ytbvos@gmail.com")]),_vm._v(".")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("License")]),_c('p',[_vm._v("The annotations in this dataset belong to the organizers of the challenge and are licensed under a"),_c('a',{attrs:{"href":"https://creativecommons.org/licenses/by/4.0/"}},[_vm._v(" Creative Commons Attribution 4.0 License")]),_vm._v(".")])])}]
 var home_esExports = { render: home_render, staticRenderFns: home_staticRenderFns }
 /* harmony default export */ var pages_home = (home_esExports);
 // CONCATENATED MODULE: ./src/pages/home.vue
 function home_injectStyle (ssrContext) {
-  __webpack_require__("L7TD")
+  __webpack_require__("jDon")
 }
 var home_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -401,7 +401,7 @@ var home___vue_template_functional__ = false
 /* styles */
 var home___vue_styles__ = home_injectStyle
 /* scopeId */
-var home___vue_scopeId__ = "data-v-7cf9474f"
+var home___vue_scopeId__ = "data-v-33954f6d"
 /* moduleIdentifier (server only) */
 var home___vue_module_identifier__ = null
 var home_Component = home_normalizeComponent(
@@ -441,24 +441,33 @@ var challenge_ChallengePage = /** @class */ (function (_super) {
             {
                 name: 'Ning Xu',
                 affiliation: 'Adobe Research',
-                im_name: 'NingXu'
-            }, {
-                name: 'Brian Price',
-                affiliation: 'Adobe Research',
-                im_name: 'BrianPrice'
+                im_name: 'NingXu',
+                link: 'http://sites.google.com/view/ningxu/',
             }, {
                 name: 'Linjie Yang',
                 affiliation: 'Snap Research',
-                im_name: 'LinjieYang'
+                im_name: 'LinjieYang',
+                link: 'https://sites.google.com/site/linjieyang89/',
             }, {
                 name: 'Yuchen Fan',
                 affiliation: 'UIUC',
-                im_name: 'YuchenFan'
+                im_name: 'YuchenFan',
+                link: 'https://ece.illinois.edu/directory/profile/yuchenf4',
             }, {
-                name: 'Thomas Huang',
-                affiliation: 'UIUC',
-                im_name: 'Tom',
-                link: 'https://ece.illinois.edu/directory/profile/t-huang1'
+                name: 'Brian Price',
+                affiliation: 'Adobe Research',
+                im_name: 'BrianPrice',
+                link: 'https://www.brianpricephd.com/',
+            }, {
+                name: 'Weiyao Lin',
+                affiliation: 'SJTU',
+                im_name: 'WeiyaoLin',
+                link: 'https://weiyaolin.github.io/',
+            }, {
+                name: 'Michael Ying Yang',
+                affiliation: '',
+                im_name: 'MichaelYingYang',
+                link: 'https://sites.google.com/site/michaelyingyang/',
             }, {
                 name: 'Jianchao Yang',
                 affiliation: 'Toutiao',
@@ -470,9 +479,10 @@ var challenge_ChallengePage = /** @class */ (function (_super) {
                 im_name: 'JieboLuo',
                 link: 'http://www.cs.rochester.edu/u/jluo/',
             }, {
-                name: 'Weiyao Lin',
-                affiliation: 'SJTU',
-                im_name: 'WeiyaoLin'
+                name: 'Thomas Huang',
+                affiliation: 'UIUC',
+                im_name: 'Tom',
+                link: 'https://ece.illinois.edu/directory/profile/t-huang1'
             },
         ];
         _this.sponsors = [
@@ -490,14 +500,14 @@ var challenge_ChallengePage = /** @class */ (function (_super) {
 }(vue_property_decorator_umd["Vue"]));
 /* harmony default export */ var challenge = (challenge_ChallengePage);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-457c96a0","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/challenge.vue
-var challenge_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"page-dataset"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container"},[_vm._m(0),_vm._m(1),_vm._m(2),_vm._m(3),_vm._m(4),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Organizers")]),_c('div',{staticClass:"columns"},_vm._l((_vm.organizers),function(organizer){return _c('div',{staticClass:"column"},[_c('figure',{staticClass:"image is-128x128"},[_c('img',{staticClass:"is-rounded",attrs:{"src":'/static/organizers/'+organizer.im_name+'.jpg'}})]),_c('p'),_c('p',{staticClass:"is-size-7-desktop"},[_c('a',{attrs:{"href":organizer.link}},[_vm._v(_vm._s(organizer.name))])]),_c('p',{staticClass:"is-size-7-desktop"},[_vm._v(_vm._s(organizer.affiliation))])])}))]),_vm._m(5),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Sponsors")]),_c('div',{staticClass:"columns"},_vm._l((_vm.sponsors),function(sponsor){return _c('div',{staticClass:"column"},[_c('figure',{staticClass:"image is-128x128"},[_c('img',{attrs:{"src":'/static/sponsors/'+sponsor.im_name}})])])}))])])])])}
-var challenge_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title center"},[_vm._v("The 1st Large-scale Video Object Segmentation Challenge")]),_c('h2',{staticClass:"subtitle center has-text-grey-light"},[_vm._v("Workshop in conjunction with ECCV2018, Munich, Germany")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Introduction")]),_c('p',[_vm._v("Video object segmentation has been studied extensively in the past decade due to its importance in understanding video spatial-temporal structures as well as its value in industrial applications. Recently, data-driven algorithms (e.g. deep learning) have become the dominant approach to computer vision problems and one of the most important keys to their successes is the availability of large-scale datasets. Unfortunately, there does not exist a large-scale dataset for video object segmentation. As a result, recent algorithms for video object segmentation have to train their models on image datasets which do not contain any temporal information or video-specific characteristics, and thus would settle for suboptimal solutions. Besides, previous benchmark does not differentiate the object categories used in training and testing, and therefore cannot evaluate the true generalization ability of algorithms on unseen categories.")]),_c('p',[_vm._v("In this workshop in conjunction with a competition, we will present the first large-scale dataset for video object segmentation, which would allow participant teams to try novel and bold ideas that could not succeed with previous small-scale datasets. In contrast to previous video-object-segmentation datasets, our dataset has the following advantages:")]),_c('li',[_vm._v("Our dataset contains 4000+ high-resolution videos clips, which are downloaded from YouTube and contain diverse contents. It is more than 30 times larger than the existing largest dataset (i.e. DAVIS) for video object segmentation.")]),_c('li',[_vm._v("Our dataset consists of a total of 76 object categories which cover common objects such as animals, vehicles, accessories and sports.")]),_c('li',[_vm._v("The videos in our dataset are taken by both amateurs and professionals. Therefore, in addition to various object motion, there is frequently significant camera motion.")]),_c('li',[_vm._v("Our segmentation masks are carefully labeled by human annotators to ensure high quality")]),_c('p',[_vm._v("We expect that our new dataset shall bring new possibilities of generating novel ideas for dense-prediction video tasks as well as providing a more comprehensive evaluation methodologies for video segmentation technology.")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Announcement")]),_c('li',[_vm._v("The top three teams will be awarded with prizes.")]),_c('li',[_vm._v("The training dataset will be released soon.")]),_c('li',[_vm._v("The test server will be available soon.")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Tentative Timetable")]),_c('li',[_vm._v("6/1/2018. Release the training dataset (tentatively)")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Citation")]),_c('p',[_vm._v("Available soon!")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Contact")]),_c('p',[_vm._v("For Challenge related questions, please feel free to contact"),_c('a',{attrs:{"href":"mailto:ytvos@gmail.com"}},[_vm._v(" ytbvos@gmail.com")]),_vm._v(".")])])}]
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-03b44ee0","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/challenge.vue
+var challenge_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"page-dataset"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container"},[_vm._m(0),_vm._m(1),_vm._m(2),_vm._m(3),_vm._m(4),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Organizers")]),_c('div',{staticClass:"columns flex-wrap"},_vm._l((_vm.organizers),function(organizer){return _c('div',[_c('figure',{staticClass:"image is-128x128"},[_c('img',{staticClass:"is-rounded",attrs:{"src":'/static/organizers/'+organizer.im_name+'.jpg'}})]),_c('p'),_c('p',{staticClass:"is-size-7-desktop has-text-centered"},[_c('a',{attrs:{"href":organizer.link}},[_vm._v(_vm._s(organizer.name))])]),_c('p',{staticClass:"is-size-7-desktop has-text-centered"},[_vm._v(_vm._s(organizer.affiliation))])])}))]),_vm._m(5),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Sponsors")]),_c('div',{staticClass:"columns flex-wrap"},_vm._l((_vm.sponsors),function(sponsor){return _c('div',[_c('figure',{staticClass:"image is-128x128"},[_c('img',{attrs:{"src":'/static/sponsors/'+sponsor.im_name}})])])}))])])])])}
+var challenge_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title has-text-centered"},[_vm._v("The 1st Large-scale Video Object Segmentation Challenge")]),_c('h2',{staticClass:"subtitle has-text-centered has-text-grey-light"},[_vm._v("Workshop in conjunction with ECCV2018, Munich, Germany")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Introduction")]),_c('p',[_vm._v("Video object segmentation has been studied extensively in the past decade due to its importance in understanding video spatial-temporal structures as well as its value in industrial applications. Recently, data-driven algorithms (e.g. deep learning) have become the dominant approach to computer vision problems and one of the most important keys to their successes is the availability of large-scale datasets. Unfortunately, there does not exist a large-scale dataset for video object segmentation. As a result, recent algorithms for video object segmentation have to train their models on image datasets which do not contain any temporal information or video-specific characteristics, and thus would settle for suboptimal solutions. Besides, previous benchmark does not differentiate the object categories used in training and testing, and therefore cannot evaluate the true generalization ability of algorithms on unseen categories.")]),_c('p',[_vm._v("In this workshop in conjunction with a competition, we will present the first large-scale dataset for video object segmentation, which would allow participant teams to try novel and bold ideas that could not succeed with previous small-scale datasets. In contrast to previous video-object-segmentation datasets, our dataset has the following advantages:")]),_c('li',[_vm._v("Our dataset contains 4000+ high-resolution videos clips, which are downloaded from YouTube and contain diverse contents. It is more than 30 times larger than the existing largest dataset (i.e. DAVIS) for video object segmentation.")]),_c('li',[_vm._v("Our dataset consists of a total of 76 object categories which cover common objects such as animals, vehicles, accessories and sports.")]),_c('li',[_vm._v("The videos in our dataset are taken by both amateurs and professionals. Therefore, in addition to various object motion, there is frequently significant camera motion.")]),_c('li',[_vm._v("Our segmentation masks are carefully labeled by human annotators to ensure high quality")]),_c('p',[_vm._v("We expect that our new dataset shall bring new possibilities of generating novel ideas for dense-prediction video tasks as well as providing a more comprehensive evaluation methodologies for video segmentation technology.")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Announcement")]),_c('li',[_vm._v("The top three teams will be awarded with prizes.")]),_c('li',[_vm._v("The training dataset will be released soon.")]),_c('li',[_vm._v("The test server will be available soon.")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Tentative Timetable")]),_c('li',[_vm._v("Sep 14th 2018: The workshop begins.")]),_c('li',[_vm._v("Aug 27th 2018: The final competition results will be announced and high-performance teams will be invited.")]),_c('li',[_vm._v("Aug 10th-25th 2018: Release the test dataset and open the submission of the test results.")]),_c('li',[_vm._v("Jul 1st 2018: Setup the submission server on CodaLab and open the submission of the validation results.")]),_c('li',[_vm._v("Jun 15th 2018: Release the training and validation dataset.")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Citation")]),_c('p',[_vm._v("Available soon!")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Contact")]),_c('p',[_vm._v("For Challenge related questions, please feel free to contact"),_c('a',{attrs:{"href":"mailto:ytvos@gmail.com"}},[_vm._v(" ytbvos@gmail.com")]),_vm._v(".")])])}]
 var challenge_esExports = { render: challenge_render, staticRenderFns: challenge_staticRenderFns }
 /* harmony default export */ var pages_challenge = (challenge_esExports);
 // CONCATENATED MODULE: ./src/pages/challenge.vue
 function challenge_injectStyle (ssrContext) {
-  __webpack_require__("AWH4")
+  __webpack_require__("PivD")
 }
 var challenge_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -510,7 +520,7 @@ var challenge___vue_template_functional__ = false
 /* styles */
 var challenge___vue_styles__ = challenge_injectStyle
 /* scopeId */
-var challenge___vue_scopeId__ = "data-v-457c96a0"
+var challenge___vue_scopeId__ = "data-v-03b44ee0"
 /* moduleIdentifier (server only) */
 var challenge___vue_module_identifier__ = null
 var challenge_Component = challenge_normalizeComponent(
@@ -570,14 +580,14 @@ var workshop_WorkshopPage = /** @class */ (function (_super) {
 }(vue_property_decorator_umd["Vue"]));
 /* harmony default export */ var workshop = (workshop_WorkshopPage);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-76ce4922","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/workshop.vue
-var workshop_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"page-workshop"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container"},[_vm._m(0),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Invited Speakers (Tentatively)")]),_vm._l((_vm.speakers),function(speaker){return _c('article',{staticClass:"message is-dark speakers"},[_c('div',{staticClass:"message-body columns"},[_c('div',{staticClass:"left column is-narrow"},[_c('figure',{staticClass:"image"},[_c('img',{attrs:{"src":'/static/speakers/'+speaker.photo+'.jpg'}})])]),_c('div',{staticClass:"right column"},[_c('p',{staticClass:"is-size-5 has-text-weight-bold"},[_vm._v(_vm._s(speaker.name))]),_c('p',[_vm._v(_vm._s(speaker.bio))])])])])})],2),_vm._m(1)])])])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-58ccf9c4","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/workshop.vue
+var workshop_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"page-workshop"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container"},[_vm._m(0),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Invited Speakers (Tentatively)")]),_vm._l((_vm.speakers),function(speaker){return _c('article',{staticClass:"message is-dark speakers"},[_c('div',{staticClass:"message-body columns"},[_c('div',{staticClass:"left column is-narrow"},[_c('figure',{staticClass:"image"},[_c('img',{attrs:{"src":'/static/speakers/'+speaker.photo+'.jpg'}})])]),_c('div',{staticClass:"right column"},[_c('p',{staticClass:"is-size-5 has-text-weight-bold"},[_vm._v(_vm._s(speaker.name))]),_c('p',[_vm._v(_vm._s(speaker.bio))])])])])})],2),_vm._m(1),_c('div',{staticClass:"section"},[_c('hi',{staticClass:"title is-4"},[_vm._v("Citation")]),_c('p',[_vm._v("Will be available soon.")])],1)])])])}
 var workshop_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title"},[_vm._v("Program")]),_c('h2',{staticClass:"subtitle has-text-grey-light"},[_vm._v("ECCV2018, Munich, Germany")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Workshop schedule (Sep 14th afternoon)")]),_c('p',[_vm._v("To be scheduled.")])])}]
 var workshop_esExports = { render: workshop_render, staticRenderFns: workshop_staticRenderFns }
 /* harmony default export */ var pages_workshop = (workshop_esExports);
 // CONCATENATED MODULE: ./src/pages/workshop.vue
 function workshop_injectStyle (ssrContext) {
-  __webpack_require__("QCOx")
+  __webpack_require__("WXi/")
 }
 var workshop_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -590,7 +600,7 @@ var workshop___vue_template_functional__ = false
 /* styles */
 var workshop___vue_styles__ = workshop_injectStyle
 /* scopeId */
-var workshop___vue_scopeId__ = "data-v-76ce4922"
+var workshop___vue_scopeId__ = "data-v-58ccf9c4"
 /* moduleIdentifier (server only) */
 var workshop___vue_module_identifier__ = null
 var workshop_Component = workshop_normalizeComponent(
