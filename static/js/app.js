@@ -7,13 +7,6 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ "5adc":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "Eo9/":
 /***/ (function(module, exports) {
 
@@ -21,7 +14,14 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ "QqNW":
+/***/ "MqWi":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "RsXo":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -63,7 +63,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ "h4UI":
+/***/ "fakL":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -119,7 +119,7 @@ var app_App = /** @class */ (function (_super) {
                 text: 'Dataset', to: 'dataset',
                 submenu: [{
                         text: 'Download', 'to': 'download',
-                        disabled: true,
+                        disabled: false,
                     }, {
                         text: 'Explore', 'to': 'explore',
                         disabled: true,
@@ -156,15 +156,15 @@ var app_App = /** @class */ (function (_super) {
 }(vue_esm["default"]));
 /* harmony default export */ var app = (app_App);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-45b9a3a9","hasScoped":false,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/app.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-77915be2","hasScoped":false,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/app.vue
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_vm._m(0),_c('nav',{staticClass:"tabs is-full-width is-boxed"},[_c('div',{staticClass:"container is-primary"},[_vm._l((_vm.menu),function(item){return [(!item.submenu)?_c('div',{staticClass:"dropdown nav-item",class:{active: _vm.route.includes(item.to)},attrs:{"slot":"trigger"},slot:"trigger"},[_c('router-link',{attrs:{"to":'/'+item.to}},[_vm._v(_vm._s(item.text))])],1):_vm._e(),(item.submenu)?_c('b-dropdown',{attrs:{"hoverable":"hoverable"}},[_c('div',{staticClass:"nav-item",class:{active: _vm.route.includes(item.to)},attrs:{"slot":"trigger"},slot:"trigger"},[_c('a',[_vm._v(_vm._s(item.text)),_c('b-icon',{attrs:{"icon":"menu-down","size":"is-small"}})],1)]),_vm._l((item.submenu),function(subitem){return _c('b-dropdown-item',{class:{active: _vm.route.includes(subitem.to)},attrs:{"disabled":subitem.disabled}},[(!subitem.disabled)?_c('router-link',{staticClass:"submenu",attrs:{"to":'/'+item.to+'/'+subitem.to,"tag":"span"}},[_vm._v(_vm._s(subitem.text))]):_vm._e(),(subitem.disabled)?_c('span',{staticClass:"submenu"},[_vm._v(_vm._s(subitem.text))]):_vm._e()],1)})],2):_vm._e()]})],2)]),_c('router-view')],1)}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('header',{staticClass:"hero is-primary"},[_c('div',{staticClass:"hero-body"},[_c('div',{staticClass:"container"},[_c('h1',{staticClass:"title"},[_vm._v("YouTube-VOS: A Large-Scale Benchmark for Video Object Segmentation")])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ var selectortype_template_index_0_src_app = (esExports);
 // CONCATENATED MODULE: ./src/app.vue
 function injectStyle (ssrContext) {
-  __webpack_require__("5adc")
-  __webpack_require__("QqNW")
+  __webpack_require__("RsXo")
+  __webpack_require__("fakL")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -381,14 +381,14 @@ var home_HomePage = /** @class */ (function (_super) {
 }(vue_property_decorator_umd["Vue"]));
 /* harmony default export */ var home = (home_HomePage);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-22287b1c","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/home.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-298a410c","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/home.vue
 var home_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page",attrs:{"id":"page-home"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container"},[_vm._m(0),_vm._m(1),_c('div',{staticClass:"section news"},[_c('h1',{staticClass:"title is-4"},[_vm._v("News")]),_c('li',[_vm._v("We are carefully performing the final check of our dataset and will release it in mid June of 2018.")]),_c('li',[_vm._v("Check out our benchmark challenge"),_c('router-link',{attrs:{"to":"challenge/challenge2018"}},[_vm._v(" \"1st Large-scale Video Object Segmentation Challenge\"")]),_vm._v(" which will be held in ECCV 2018!")],1)]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Dataset Examples")]),_c('div',{staticClass:"columns example"},_vm._l((_vm.samples),function(sample){return _c('div',[_c('img',{attrs:{"src":'/static/samples/'+sample+'_bike.jpg'}}),_c('img',{attrs:{"src":'/static/samples/'+sample+'_fish.jpg'}})])})),_c('p',[_c('span',[_vm._v("For more examples, please")]),_c('router-link',{attrs:{"to":"dataset/explore"}},[_vm._v(" explore")]),_c('span',[_vm._v(" our dataset.")])],1)]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("People")]),_c('div',{staticClass:"columns flex-wrap"},_vm._l((_vm.organizers),function(organizer){return _c('div',[_c('figure',{staticClass:"image is-128x128"},[_c('img',{staticClass:"is-rounded",attrs:{"src":'/static/organizers/'+organizer.im_name+'.jpg'}})]),_c('p'),_c('p',{staticClass:"is-size-7-desktop has-text-centered"},[_c('a',{attrs:{"href":organizer.link}},[_vm._v(_vm._s(organizer.name))])]),_c('p',{staticClass:"is-size-7-desktop has-text-centered"},[_vm._v(_vm._s(organizer.affiliation))])])}))]),_c('div',{staticClass:"section"},[_c('hi',{staticClass:"title is-4"},[_vm._v("Citation")]),_c('p',[_vm._v("will be available soon")])],1),_vm._m(2),_vm._m(3),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Sponsors")]),_c('div',{staticClass:"columns"},_vm._l((_vm.sponsors),function(sponsor){return _c('div',{staticClass:"column"},[_c('figure',{staticClass:"image is-128x128"},[_c('img',{attrs:{"src":'/static/sponsors/'+sponsor.im_name}})])])}))])])])])}
 var home_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("YouTube-VOS")]),_c('p',[_vm._v("YouTube-VOS is the first large-scale dataset for video object segmentation. Our dataset contains 4000+ YouTube videos, 70+ common objects and densely-sampled high-quality pixel-level annotations. Some statistics of the dataset are shown below. More details can be found in the dataset report (will be available soon).")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('p',[_vm._v("We hope that such a large-scale dataset can")]),_c('li',[_vm._v("Overcome the data-insufficiency issue for video object segmentation as well as other low and mid-level video understanding tasks, and therefore foster more bold and complicated algorithms such as RNN, Reinforcement Learning etc.")]),_c('li',[_vm._v("Provide diverse training samples to help learn specific object characteristics in videos such as spatial-temporal coherence.")]),_c('li',[_vm._v("Provide more comprehensive evaluation results than existing datasets (For example, larger testing scale and better evaluation metrics).")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Contact")]),_c('p',[_vm._v("For dataset related questions, please feel free to contact"),_c('a',{attrs:{"href":"mailto:ytvos@gmail.com"}},[_vm._v(" ytbvos@gmail.com")]),_vm._v(".")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("License")]),_c('p',[_vm._v("The annotations in this dataset belong to the organizers of the challenge and are licensed under a"),_c('a',{attrs:{"href":"https://creativecommons.org/licenses/by/4.0/"}},[_vm._v(" Creative Commons Attribution 4.0 License")]),_vm._v(".")])])}]
 var home_esExports = { render: home_render, staticRenderFns: home_staticRenderFns }
 /* harmony default export */ var pages_home = (home_esExports);
 // CONCATENATED MODULE: ./src/pages/home.vue
 function home_injectStyle (ssrContext) {
-  __webpack_require__("h4UI")
+  __webpack_require__("MqWi")
 }
 var home_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -401,7 +401,7 @@ var home___vue_template_functional__ = false
 /* styles */
 var home___vue_styles__ = home_injectStyle
 /* scopeId */
-var home___vue_scopeId__ = "data-v-22287b1c"
+var home___vue_scopeId__ = "data-v-298a410c"
 /* moduleIdentifier (server only) */
 var home___vue_module_identifier__ = null
 var home_Component = home_normalizeComponent(
@@ -533,6 +533,91 @@ var challenge_Component = challenge_normalizeComponent(
 )
 
 /* harmony default export */ var src_pages_challenge = (challenge_Component.exports);
+
+// CONCATENATED MODULE: ./node_modules/ts-loader!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/download.vue
+var download___extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var download___decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var download_DownloadPage = /** @class */ (function (_super) {
+    download___extends(DownloadPage, _super);
+    function DownloadPage() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.downloads = [{
+                text: 'Train-Val Images and Annotations',
+                annotated_frames: [{
+                        link: 'https://drive.google.com/drive/folders/1bI5J1H3mxsIGo7Kp-pPZU8i6rnykOw7f?usp=sharing',
+                        text: 'Google Drive',
+                        icon: 'google-drive',
+                    }, {
+                        link: 'https://pan.baidu.com/s/14cEAXYqSm125TuUjLCv53Q',
+                        text: 'Baidu Pan',
+                        icon: 'cloud-download',
+                    }, {
+                        link: 'https://uillinoisedu-my.sharepoint.com/:f:/g/personal/yuchenf4_illinois_edu/EmVCEOLTPudFkx8uE8Jn6FIBJSVpt1M4WvdebW91FHvJYA?e=7DbPyT',
+                        text: 'One Drive',
+                        icon: 'onedrive',
+                    }]
+            }, {
+                text: 'Test-Dev - Images and First Frame Annotations',
+            }, {
+                text: 'Test-Challenge - Images and First Frame Annotations'
+            }];
+        return _this;
+    }
+    DownloadPage = download___decorate([
+        vue_property_decorator_umd["Component"]
+    ], DownloadPage);
+    return DownloadPage;
+}(vue_property_decorator_umd["Vue"]));
+/* harmony default export */ var download = (download_DownloadPage);
+
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-899bef0a","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/download.vue
+var download_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page",attrs:{"id":"page-download"}},[_c('section',{staticClass:"section"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title"},[_vm._v("Evaluation Code")]),_c('div',{staticClass:"container download"},[_c('a',{staticClass:"button is-primary",attrs:{"disabled":"disabled"}},[_c('b-icon',{attrs:{"icon":"github-circle","size":"is-small"}}),_c('span',[_vm._v("Matlab code")])],1)]),_c('div',{staticClass:"container download"},[_c('a',{staticClass:"button is-primary",attrs:{"disabled":"disabled"}},[_c('b-icon',{attrs:{"icon":"github-circle","size":"is-small"}}),_c('span',[_vm._v("Python code")])],1)])]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title"},[_vm._v("Evaluation Test-Dev and Test-Challenge")]),_c('div',{staticClass:"container download"},[_c('a',{staticClass:"button is-info",attrs:{"disabled":"disabled"}},[_c('b-icon',{attrs:{"icon":"cube-outline","size":"is-small"}}),_c('span',[_vm._v("Test Dev and Test Challenge")])],1)])]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title"},[_vm._v("Downloads")]),_c('p',[_vm._v("To reduce data preprocessing time, we have prepared all image frames and annotations in 360p resolution. We provide download links for annotated image frames (6fps) as well as raw image frames (30fps).")]),_vm._l((_vm.downloads),function(download){return _c('div',{staticClass:"container download"},[_c('span',{staticClass:"left"},[_vm._v(_vm._s(download.text))]),_c('b-dropdown',{attrs:{"hoverable":download.annotated_frames,"disabled":!download.annotated_frames}},[_c('a',{staticClass:"button is-warning",attrs:{"slot":"trigger"},slot:"trigger"},[_c('b-icon',{attrs:{"icon":"zip-box","size":"is-small"}}),_c('span',[_vm._v("Annotated frames")]),_c('b-icon',{attrs:{"icon":"menu-down"}})],1),_vm._l((download.annotated_frames),function(link){return _c('b-dropdown-item',{attrs:{"has-link":"has-link","position":"is-bottom-left"}},[_c('a',{attrs:{"href":link.link,"target":"_blank"}},[_c('b-icon',{attrs:{"icon":link.icon,"size":"is-small"}}),_c('span',[_vm._v(_vm._s(link.text))])],1)])})],2),_c('b-dropdown',{attrs:{"hoverable":download.all_frames,"disabled":!download.all_frames}},[_c('a',{staticClass:"button is-warning",attrs:{"slot":"trigger"},slot:"trigger"},[_c('b-icon',{attrs:{"icon":"zip-box","size":"is-small"}}),_c('span',[_vm._v("All frames")])],1)])],1)})],2)])])])}
+var download_staticRenderFns = []
+var download_esExports = { render: download_render, staticRenderFns: download_staticRenderFns }
+/* harmony default export */ var pages_download = (download_esExports);
+// CONCATENATED MODULE: ./src/pages/download.vue
+function download_injectStyle (ssrContext) {
+  __webpack_require__("yu+S")
+}
+var download_normalizeComponent = __webpack_require__("VU/8")
+/* script */
+
+
+/* template */
+
+/* template functional */
+var download___vue_template_functional__ = false
+/* styles */
+var download___vue_styles__ = download_injectStyle
+/* scopeId */
+var download___vue_scopeId__ = "data-v-899bef0a"
+/* moduleIdentifier (server only) */
+var download___vue_module_identifier__ = null
+var download_Component = download_normalizeComponent(
+  download,
+  pages_download,
+  download___vue_template_functional__,
+  download___vue_styles__,
+  download___vue_scopeId__,
+  download___vue_module_identifier__
+)
+
+/* harmony default export */ var src_pages_download = (download_Component.exports);
 
 // CONCATENATED MODULE: ./node_modules/ts-loader!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/pages/workshop.vue
 var workshop___extends = (this && this.__extends) || (function () {
@@ -815,6 +900,7 @@ var notfound_Component = notfound_normalizeComponent(
 
 
 
+
 vue_esm["default"].use(vue_router_esm["a" /* default */]);
 /* harmony default export */ var pages = (new vue_router_esm["a" /* default */]({
     mode: 'history',
@@ -829,8 +915,7 @@ vue_esm["default"].use(vue_router_esm["a" /* default */]);
         }, {
             path: '/dataset/download',
             name: 'download',
-            // component: DownloadPage,
-            component: src_pages_dummy,
+            component: src_pages_download,
         }, {
             path: '/dataset/explore',
             name: 'explore',
@@ -875,6 +960,13 @@ new vue_esm["default"]({
     components: { app: src_app },
 });
 
+
+/***/ }),
+
+/***/ "yu+S":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 
