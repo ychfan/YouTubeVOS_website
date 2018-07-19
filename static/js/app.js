@@ -7,6 +7,13 @@ webpackJsonp([1],{
 
 /***/ }),
 
+/***/ "1I5O":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "7iXH":
 /***/ (function(module, exports) {
 
@@ -64,13 +71,6 @@ webpackJsonp([1],{
 /***/ }),
 
 /***/ "fLdC":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "g5Ub":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -578,14 +578,14 @@ var download_DownloadPage = /** @class */ (function (_super) {
 }(vue_property_decorator_umd["Vue"]));
 /* harmony default export */ var download = (download_DownloadPage);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-39a647d2","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/download.vue
-var download_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page",attrs:{"id":"page-download"}},[_c('section',{staticClass:"section"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title"},[_vm._v("Evaluation")]),_c('div',{staticClass:"container download"},[_c('a',{staticClass:"button is-info",attrs:{"href":"https://competitions.codalab.org/competitions/19544#participate-submit_results"}},[_c('b-icon',{attrs:{"icon":"cube-outline","size":"is-small"}}),_c('span',[_vm._v("codalab link")])],1)])]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title"},[_vm._v("Downloads")]),_c('p',[_vm._v("Currently, download links are available through #"),_c('a',{attrs:{"href":"https://competitions.codalab.org/competitions/19544#participate"}},[_vm._v("codalab")]),_vm._v(" competition for challenge2018. For more details, please see the"),_c('router-link',{attrs:{"to":"/challenge/challenge2018"}},[_vm._v(" the 1st large-scale video object segmentation challenge")]),_vm._v(" and its"),_c('router-link',{attrs:{"to":"/challenge/guidelines"}},[_vm._v(" guidelines")]),_vm._v(".")],1),_vm._l((_vm.downloads),function(download){return _c('div',{staticClass:"container download"},[_c('span',{staticClass:"left"},[_vm._v(_vm._s(download.text))]),_c('b-dropdown',{attrs:{"hoverable":download.annotated_frames,"disabled":!download.annotated_frames}},[_c('a',{staticClass:"button is-warning",attrs:{"slot":"trigger"},slot:"trigger"},[_c('b-icon',{attrs:{"icon":"zip-box","size":"is-small"}}),_c('span',[_vm._v("Annotated frames")]),_c('b-icon',{attrs:{"icon":"menu-down"}})],1),_vm._l((download.annotated_frames),function(link){return _c('b-dropdown-item',{attrs:{"has-link":"has-link","position":"is-bottom-left"}},[_c('a',{attrs:{"href":link.link,"target":"_blank"}},[_c('b-icon',{attrs:{"icon":link.icon,"size":"is-small"}}),_c('span',[_vm._v(_vm._s(link.text))])],1)])})],2),_c('b-dropdown',{attrs:{"hoverable":download.all_frames,"disabled":!download.all_frames}},[_c('a',{staticClass:"button is-warning",attrs:{"slot":"trigger"},slot:"trigger"},[_c('b-icon',{attrs:{"icon":"zip-box","size":"is-small"}}),_c('span',[_vm._v("All frames")])],1)])],1)})],2)])])])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-568ad2d2","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/download.vue
+var download_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page",attrs:{"id":"page-download"}},[_c('section',{staticClass:"section"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title"},[_vm._v("Evaluation")]),_c('div',{staticClass:"container download"},[_c('a',{staticClass:"button is-info",attrs:{"href":"https://competitions.codalab.org/competitions/19544#participate-submit_results"}},[_c('b-icon',{attrs:{"icon":"cube-outline","size":"is-small"}}),_c('span',[_vm._v("codalab link")])],1)])]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title"},[_vm._v("Downloads")]),_c('p',[_vm._v("Currently, download links are available through #"),_c('a',{attrs:{"href":"https://competitions.codalab.org/competitions/19544#participate"}},[_vm._v("codalab")]),_vm._v(" competition for challenge2018. For more details, please see the"),_c('router-link',{attrs:{"to":"/challenge/challenge2018"}},[_vm._v(" the 1st large-scale video object segmentation challenge")]),_vm._v(" and its"),_c('router-link',{attrs:{"to":"/challenge/guidelines"}},[_vm._v(" guidelines")]),_vm._v(".")],1),_vm._l((_vm.downloads),function(download){return (false)?_c('div',{staticClass:"container download"},[_c('span',{staticClass:"left"},[_vm._v(_vm._s(download.text))]),_c('b-dropdown',{attrs:{"hoverable":download.annotated_frames,"disabled":!download.annotated_frames}},[_c('a',{staticClass:"button is-warning",attrs:{"slot":"trigger"},slot:"trigger"},[_c('b-icon',{attrs:{"icon":"zip-box","size":"is-small"}}),_c('span',[_vm._v("Annotated frames")]),_c('b-icon',{attrs:{"icon":"menu-down"}})],1),_vm._l((download.annotated_frames),function(link){return _c('b-dropdown-item',{attrs:{"has-link":"has-link","position":"is-bottom-left"}},[_c('a',{attrs:{"href":link.link,"target":"_blank"}},[_c('b-icon',{attrs:{"icon":link.icon,"size":"is-small"}}),_c('span',[_vm._v(_vm._s(link.text))])],1)])})],2),_c('b-dropdown',{attrs:{"hoverable":download.all_frames,"disabled":!download.all_frames}},[_c('a',{staticClass:"button is-warning",attrs:{"slot":"trigger"},slot:"trigger"},[_c('b-icon',{attrs:{"icon":"zip-box","size":"is-small"}}),_c('span',[_vm._v("All frames")])],1)])],1):_vm._e()})],2)])])])}
 var download_staticRenderFns = []
 var download_esExports = { render: download_render, staticRenderFns: download_staticRenderFns }
 /* harmony default export */ var pages_download = (download_esExports);
 // CONCATENATED MODULE: ./src/pages/download.vue
 function download_injectStyle (ssrContext) {
-  __webpack_require__("g5Ub")
+  __webpack_require__("1I5O")
 }
 var download_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -598,7 +598,7 @@ var download___vue_template_functional__ = false
 /* styles */
 var download___vue_styles__ = download_injectStyle
 /* scopeId */
-var download___vue_scopeId__ = "data-v-39a647d2"
+var download___vue_scopeId__ = "data-v-568ad2d2"
 /* moduleIdentifier (server only) */
 var download___vue_module_identifier__ = null
 var download_Component = download_normalizeComponent(
