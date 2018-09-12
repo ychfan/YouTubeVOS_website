@@ -35,7 +35,7 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ "SzKo":
+/***/ "bhnf":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -645,9 +645,9 @@ var workshop_WorkshopPage = /** @class */ (function (_super) {
                 bio: "Corso is an associate professor of Electrical Engineering and Computer Science at the\n    University of Michigan. From 2007-14 he was a member of the Computer Science and\n    Engineering faculty at SUNY Buffalo.  He is the recipient of a Google Faculty Research Award\n    2015, the Army Research Office Young Investigator Award 2010, NSF CAREER award 2009,\n    SUNY Buffalo Young Investigator Award 2011, a member of the 2009 DARPA Computer Science\n    Study Group, and a recipient of the Link Foundation Fellowship in Advanced Simulation and\n    Training 2003. Corso has authored 90+ peer-reviewed papers on topics of his research interest\n    including computer vision, robot perception, data science, and medical imaging. He is an\n    Associate Editor of PAMI, and a member of the AAAI, IEEE, ACM.",
                 photo: 'JasonCorso',
             }, {
-                name: 'Chenliang Xu',
-                bio: "Dr. Chenliang Xu is currently an Assistant Professor in the Department of Computer Science\n    at the University of Rochester. He received his Ph.D. in Computer Science and Engineering at\n    the University of Michigan in 2016. His research thrusts include computer vision and its relations\n    to natural language, robotics, and data science. He primarily focuses on problems in video\n    understanding such as video segmentation, activity recognition, and multimodal vision-and-x\n    modeling. He also has broader interests in machine learning and deep learning.",
-                photo: 'ChenliangXu',
+                name: 'Brian Price',
+                bio: "Brian is a researcher in the Adobe Research Labs working in computer vision. He received his\n    PhD degree in computer science from Brigham Young University in 2010, and his adviser was Dr. Bryan\n    Morse. His PhD research focused on interactive image segmentation and matting in images and videos.\n    Before that, he received his masters degree from the same institution under the guidance of Dr. \n    William Barrett.\n    Brian joined Adobe in 2010 after completing his graduate work. His research interests include image\n    and video segmentation and matting, interactive vision methods, stereo, and other computer vision\n    fields, and well as broad interest in computer graphics and machine learning.",
+                photo: 'BrianPrice',
             }];
         return _this;
     }
@@ -658,14 +658,14 @@ var workshop_WorkshopPage = /** @class */ (function (_super) {
 }(vue_property_decorator_umd["Vue"]));
 /* harmony default export */ var workshop = (workshop_WorkshopPage);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-c25f5868","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/workshop.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-761f1c64","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/workshop.vue
 var workshop_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"page-workshop"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container"},[_vm._m(0),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Invited Speakers (Tentatively)")]),_vm._l((_vm.speakers),function(speaker){return _c('article',{staticClass:"message is-dark speakers"},[_c('div',{staticClass:"message-body columns"},[_c('div',{staticClass:"left column is-narrow"},[_c('figure',{staticClass:"image"},[_c('img',{attrs:{"src":'/static/speakers/'+speaker.photo+'.jpg'}})])]),_c('div',{staticClass:"right column"},[_c('p',{staticClass:"is-size-5 has-text-weight-bold"},[_vm._v(_vm._s(speaker.name))]),_c('p',[_vm._v(_vm._s(speaker.bio))])])])])})],2),_vm._m(1)])])])}
-var workshop_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title"},[_vm._v("Program")]),_c('h2',{staticClass:"subtitle has-text-grey-light"},[_vm._v("ECCV2018, Munich, Germany")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Workshop schedule (Sep 14th afternoon)")]),_c('li',[_c('strong',[_vm._v("12:30-1:30")]),_vm._v(": Poster Session (Shared with the workshop \"The Third International Workshop on Video Segmentation\").")]),_c('li',[_c('strong',[_vm._v("1:30-2:00")]),_vm._v(": Welcome and introduction.")]),_c('li',[_c('strong',[_vm._v("2:00-2:40")]),_vm._v(": Invited talk.")]),_c('li',[_c('strong',[_vm._v("2:40-2:55")]),_vm._v(": 4th place team presentation.")]),_c('li',[_c('strong',[_vm._v("2:55-3:10")]),_vm._v(": Break.")]),_c('li',[_c('strong',[_vm._v("3:10-3:50")]),_vm._v(": Invited talk.")]),_c('li',[_c('strong',[_vm._v("3:50-4:05")]),_vm._v(": 3rd place team presentation.")]),_c('li',[_c('strong',[_vm._v("4:05-4:20")]),_vm._v(": 2nd place team presentation.")]),_c('li',[_c('strong',[_vm._v("4:20-4:35")]),_vm._v(": 1st place team presentation.")]),_c('li',[_c('strong',[_vm._v("4:35-5:00")]),_vm._v(": Closing remarks and awards.")]),_c('li',[_c('strong',[_vm._v("5:00-6:00")]),_vm._v(": Poster Session (Shared with the workshop \"The Third International Workshop on Video Segmentation\").")])])}]
+var workshop_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title"},[_vm._v("Program")]),_c('h2',{staticClass:"subtitle has-text-grey-light"},[_vm._v("ECCV2018, Munich, Germany")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Workshop schedule (Sep 14th afternoon)")]),_c('li',[_c('strong',[_vm._v("12:30-1:30")]),_vm._v(": Poster Session (Shared with the workshop \"The Third International Workshop on Video Segmentation\").")]),_c('li',[_c('strong',[_vm._v("1:30-2:00")]),_vm._v(": Welcome and introduction.")]),_c('li',[_c('strong',[_vm._v("2:00-2:40")]),_vm._v(": Invited talk: Brian Price.")]),_c('li',[_c('strong',[_vm._v("2:40-2:55")]),_vm._v(": 4th place team presentation.")]),_c('li',[_c('strong',[_vm._v("2:55-3:10")]),_vm._v(": Break.")]),_c('li',[_c('strong',[_vm._v("3:10-3:50")]),_vm._v(": Invited talk: Jason Corso.")]),_c('li',[_c('strong',[_vm._v("3:50-4:05")]),_vm._v(": 3rd place team presentation.")]),_c('li',[_c('strong',[_vm._v("4:05-4:20")]),_vm._v(": 2nd place team presentation.")]),_c('li',[_c('strong',[_vm._v("4:20-4:35")]),_vm._v(": 1st place team presentation.")]),_c('li',[_c('strong',[_vm._v("4:35-5:00")]),_vm._v(": Closing remarks and awards.")]),_c('li',[_c('strong',[_vm._v("5:00-6:00")]),_vm._v(": Poster Session (Shared with the workshop \"The Third International Workshop on Video Segmentation\").")])])}]
 var workshop_esExports = { render: workshop_render, staticRenderFns: workshop_staticRenderFns }
 /* harmony default export */ var pages_workshop = (workshop_esExports);
 // CONCATENATED MODULE: ./src/pages/workshop.vue
 function workshop_injectStyle (ssrContext) {
-  __webpack_require__("SzKo")
+  __webpack_require__("bhnf")
 }
 var workshop_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -678,7 +678,7 @@ var workshop___vue_template_functional__ = false
 /* styles */
 var workshop___vue_styles__ = workshop_injectStyle
 /* scopeId */
-var workshop___vue_scopeId__ = "data-v-c25f5868"
+var workshop___vue_scopeId__ = "data-v-761f1c64"
 /* moduleIdentifier (server only) */
 var workshop___vue_module_identifier__ = null
 var workshop_Component = workshop_normalizeComponent(
