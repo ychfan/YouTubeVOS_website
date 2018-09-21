@@ -14,6 +14,13 @@ webpackJsonp([1],{
 
 /***/ }),
 
+/***/ "9+/V":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "Eo9/":
 /***/ (function(module, exports) {
 
@@ -71,13 +78,6 @@ webpackJsonp([1],{
 /***/ }),
 
 /***/ "mS3k":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "ukAK":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -387,14 +387,14 @@ var home_HomePage = /** @class */ (function (_super) {
 }(vue_property_decorator_umd["Vue"]));
 /* harmony default export */ var home = (home_HomePage);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-1d9b4bdb","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/home.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-45593bdc","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/home.vue
 var home_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page",attrs:{"id":"page-home"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container content"},[_vm._m(0),_c('div',{staticClass:"section"},[_c('div',{staticClass:"columns"},_vm._l((_vm.infos),function(info){return _c('div',{staticClass:"column"},[_c('div',{staticClass:"infos"},[_c('b-tooltip',{attrs:{"label":_vm.expandinfo(info),"type":"is-light"}},[_c('div',{staticClass:"num"},[_vm._v(" "+_vm._s(info.number))]),_c('div',{staticClass:"info"},[_vm._v(_vm._s(info.unit))])])],1)])}))]),_vm._m(1),_c('div',{staticClass:"section news"},[_c('h1',{staticClass:"title is-4"},[_vm._v("News")]),_c('ul',[_c('li',[_vm._v("We have now released all the frames for the dataset")]),_vm._m(2),_c('li',[_vm._v("The training images and annotations are now available in"),_c('router-link',{attrs:{"to":"/dataset/download"}},[_vm._v(" download")]),_vm._v(" page. The competition guidelines can be found in"),_c('router-link',{attrs:{"to":"/challenge/guidelines"}},[_vm._v(" guidelines")]),_vm._v(" page.")],1),_c('li',[_vm._v("We are carefully performing the final check of our dataset and will release it in mid June of 2018.")]),_c('li',[_vm._v("Check out our benchmark challenge"),_c('router-link',{attrs:{"to":"/challenge/challenge2018"}},[_vm._v(" \"1st Large-scale Video Object Segmentation Challenge\"")]),_vm._v(" which will be held in ECCV 2018!")],1)])]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Dataset Examples")]),_c('div',{staticClass:"columns example"},_vm._l((_vm.samples),function(sample){return _c('div',[_c('img',{attrs:{"src":'/static/samples/'+sample+'_bike.jpg'}}),_c('img',{attrs:{"src":'/static/samples/'+sample+'_fish.jpg'}})])})),_c('p',[_c('span',[_vm._v("For more examples, please")]),_c('router-link',{attrs:{"to":"/dataset/explore"}},[_vm._v(" explore")]),_c('span',[_vm._v(" our dataset.")])],1)]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("People")]),_c('div',{staticClass:"columns flex-wrap"},_vm._l((_vm.organizers),function(organizer){return _c('div',[_c('figure',{staticClass:"image is-128x128"},[_c('img',{staticClass:"is-rounded",attrs:{"src":'/static/organizers/'+organizer.im_name+'.jpg'}})]),_c('p',{staticClass:"has-text-centered"},[_c('a',{attrs:{"href":organizer.link}},[_vm._v(_vm._s(organizer.name))]),_c('br'),_c('span',[_vm._v(_vm._s(organizer.affiliation))])])])}))]),_c('div',{staticClass:"section"},[_c('hi',{staticClass:"title is-4"},[_vm._v("Citation")]),_c('p',[_vm._v("will be available soon")])],1),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Contact")]),_c('p',[_vm._v("For "),_c('router-link',{attrs:{"to":"/dataset/download"}},[_vm._v("dataset")]),_vm._v(" related questions, please feel free to contact"),_c('a',{attrs:{"href":"mailto:ytvos@gmail.com"}},[_vm._v(" ytbvos@gmail.com")]),_vm._v(".")],1),_c('p',[_vm._v("For "),_c('router-link',{attrs:{"to":"/challenge/challenge2018"}},[_vm._v("challenge")]),_vm._v(" related questions, you canalso use "),_c('a',{attrs:{"href":"https://competitions.codalab.org/forums/16267/"}},[_vm._v("codalab forums")]),_vm._v(".")],1)]),_vm._m(3),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Sponsors")]),_c('div',{staticClass:"columns"},_vm._l((_vm.sponsors),function(sponsor){return _c('div',{staticClass:"column"},[_c('figure',{staticClass:"image is-128x128"},[_c('img',{attrs:{"src":'/static/sponsors/'+sponsor.im_name}})])])}))])])])])}
-var home_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("YouTube-VOS")]),_c('p',[_vm._v("YouTube-VOS is the first large-scale dataset for video object segmentation. Our dataset contains 4000+ YouTube videos, 70+ common objects and densely-sampled high-quality pixel-level annotations. Some statistics of the dataset are shown below. More details can be found in the dataset report (will be available soon).")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('p',[_vm._v("We hope that such a large-scale dataset can:")]),_c('ul',[_c('li',[_vm._v("Overcome the data-insufficiency issue for video object segmentation as well as other low and mid-level video understanding tasks, and therefore foster more bold and complicated algorithms such as RNN, Reinforcement Learning etc.")]),_c('li',[_vm._v("Provide diverse training samples to help learn specific object characteristics in videos such as spatial-temporal coherence.")]),_c('li',[_vm._v("Provide more comprehensive evaluation results than existing datasets (For example, larger testing scale and better evaluation metrics).")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_vm._v("The competition is hosted on "),_c('a',{attrs:{"href":"https://competitions.codalab.org/competitions/19544"}},[_vm._v("codelab")]),_vm._v(". Please register an account on codalab to participate.")])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("License")]),_c('p',[_vm._v("The annotations in this dataset belong to the organizers of the challenge and are licensed under a"),_c('a',{attrs:{"href":"https://creativecommons.org/licenses/by/4.0/"}},[_vm._v(" Creative Commons Attribution 4.0 License")]),_vm._v(".")])])}]
+var home_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("YouTube-VOS")]),_c('p',[_vm._v("YouTube-VOS is the first large-scale dataset for video object segmentation. Our dataset contains 4000+ YouTube videos, 70+ common objects and densely-sampled high-quality pixel-level annotations. Some statistics of the dataset are shown below. "),_c('a',{attrs:{"href":"https://arxiv.org/abs/1809.03327"}},[_vm._v("More details can be found in the dataset report.")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('p',[_vm._v("We hope that such a large-scale dataset can:")]),_c('ul',[_c('li',[_vm._v("Overcome the data-insufficiency issue for video object segmentation as well as other low and mid-level video understanding tasks, and therefore foster more bold and complicated algorithms such as RNN, Reinforcement Learning etc.")]),_c('li',[_vm._v("Provide diverse training samples to help learn specific object characteristics in videos such as spatial-temporal coherence.")]),_c('li',[_vm._v("Provide more comprehensive evaluation results than existing datasets (For example, larger testing scale and better evaluation metrics).")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_vm._v("The competition is hosted on "),_c('a',{attrs:{"href":"https://competitions.codalab.org/competitions/19544"}},[_vm._v("codelab")]),_vm._v(". Please register an account on codalab to participate.")])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("License")]),_c('p',[_vm._v("The annotations in this dataset belong to the organizers of the challenge and are licensed under a"),_c('a',{attrs:{"href":"https://creativecommons.org/licenses/by/4.0/"}},[_vm._v(" Creative Commons Attribution 4.0 License")]),_vm._v(".")])])}]
 var home_esExports = { render: home_render, staticRenderFns: home_staticRenderFns }
 /* harmony default export */ var pages_home = (home_esExports);
 // CONCATENATED MODULE: ./src/pages/home.vue
 function home_injectStyle (ssrContext) {
-  __webpack_require__("ukAK")
+  __webpack_require__("9+/V")
 }
 var home_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -407,7 +407,7 @@ var home___vue_template_functional__ = false
 /* styles */
 var home___vue_styles__ = home_injectStyle
 /* scopeId */
-var home___vue_scopeId__ = "data-v-1d9b4bdb"
+var home___vue_scopeId__ = "data-v-45593bdc"
 /* moduleIdentifier (server only) */
 var home___vue_module_identifier__ = null
 var home_Component = home_normalizeComponent(
